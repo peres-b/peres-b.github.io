@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+html {
+  height: fit-content;
+}
+
+
+*, :root {
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  
+  background: rgb(69,240,247);
+  background: linear-gradient(3deg, rgba(69,240,247,1) 20%, rgba(45,108,253,1) 100%);
+  max-width: 45%;
+  margin: 0 auto;
+
+}
+
+#acertos{
+  background-color: hsl(102, 100%, 60%);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px;
+  
+}
+
+#quiz{
+  background-color: hsl(43, 100%, 45%);
+  border-radius: 15px;
+  border: 2px solid hsl(31, 64%, 38%);
+  padding: 0;
+ }
+
+h1{
+  font-family: "Honk", system-ui;
+  font-size: 3rem;
+  text-align: center;
+  color: hsl(47, 100%, 46%);
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  
+}
+
+main{
+  padding-bottom: 100px;
+}
+
+dT, h3{
+    padding-left: 5px;
+}
+
+button{
+  padding: 5px;
+  border-radius: 10px;
+  float: right;
+  margin-top: 10px;  
+
+    
+}
+
+.hidden{
+  display:none;
+
+}
